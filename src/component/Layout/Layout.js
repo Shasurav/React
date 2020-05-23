@@ -8,7 +8,7 @@ import Sidebar from '../Navigation/Sidebar/Sidebar';
 class Layout extends Component {
     
     state = {
-        showSideBar : true
+        showSideBar : false
     }
     sideBarClosedHandler = ()=> {
         this.setState({showSideBar : false})
